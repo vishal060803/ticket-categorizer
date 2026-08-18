@@ -26,7 +26,7 @@ from main import (
 
 def _has_sklearn() -> bool:
     try:
-        import sklearn  # noqa: F401
+        import sklearn
 
         return True
     except ImportError:
@@ -251,6 +251,7 @@ class TestPhase3To6ModelBuild(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
 
 
 

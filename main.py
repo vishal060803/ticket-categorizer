@@ -1,34 +1,4 @@
-﻿"""Phase 1 + Phase 2 + Phase 3 + Phase 4 foundations for ticket categorizer.
-
-Phase 1:
-1) Confirm dataset columns: subject, body, category
-2) Confirm allowed labels: Billing, Technical, HR, General
-3) Define final output fields for the project
-
-Phase 2:
-1) Merge subject + body into one text field
-2) Clean text (lowercase, remove punctuation/noise, normalize spaces, remove stopwords)
-3) Run sanity checks for empty tickets and label consistency
-
-Phase 3:
-1) Vectorize text using TF-IDF (unigrams; optional bigrams)
-2) Train baseline model: Multinomial Naive Bayes
-3) Train comparison model: Logistic Regression
-4) Select best model using weighted F1, macro recall, then accuracy
-
-Phase 4:
-1) Use train/test split with stratification when feasible
-2) Capture accuracy, precision, recall, F1, confusion matrix
-3) Surface common misclassification and risky confusion pairs
-
-Planned libraries for upcoming phases:
-- pandas (data loading/inspection)
-- scikit-learn (TF-IDF, classifiers, metrics)
-- numpy (numerical helpers)
-- streamlit (optional live demo)
-"""
-
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import csv
@@ -706,6 +676,7 @@ def main() -> None:
             raise SystemExit(1) from error
 if __name__ == "__main__":
     main()
+
 
 
 
