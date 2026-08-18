@@ -160,14 +160,3 @@ Project is successful when:
 3. New unseen tickets can be classified instantly.
 4. Low-confidence tickets are safely routed to manual review.
 5. Tool outputs are clear enough for real operational use.
-
-## 14) Submission Format Note
-Submit the final project using this exact structure:
-
-### GitHub / Colab / file link
-Paste a link to your notebook, repo, or shared code file.
-Example: `https://github.com/your-username/ticket-categorizer`
-
-### Approach summary (2–4 lines)
-Briefly describe model choice and how edge cases were handled.
-Example: Used TF-IDF + Multinomial Naive Bayes, and applied a confidence threshold so low-certainty tickets route to human review.
