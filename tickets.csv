@@ -1,0 +1,25 @@
+subject,body,category
+Charged twice for subscription,I see two card charges for the same monthly plan. Please refund one.,Billing
+Invoice amount is incorrect,My latest invoice shows a higher amount than the quoted annual renewal.,Billing
+Need GST invoice copy,Can you share the tax invoice for payment done on Monday?,Billing
+Refund not received,Refund was promised last week but still not credited to my bank account.,Billing
+Payment failed but money debited,Checkout failed but amount got debited. Please verify and reverse.,Billing
+Apply promo credit,My discount coupon was not applied on the final bill.,Billing
+Unable to login,Password reset link expires instantly and I cannot access dashboard.,Technical
+Production server down,The app is down for all users and API requests are failing urgently.,Technical
+Mobile app crashes,Android app closes on startup after the latest update.,Technical
+2FA code not working,OTP is accepted on web but rejected on desktop client.,Technical
+Email notifications stopped,No alert emails are being sent from the system since yesterday.,Technical
+File upload timeout,Large PDF uploads fail with timeout error and retry loop.,Technical
+Leave balance confirmation,Please confirm my remaining paid leave days this quarter.,HR
+Payroll slip missing,My salary slip for this month is not visible in the employee portal.,HR
+Interview reschedule request,Can we move candidate interview to Friday afternoon?,HR
+Update emergency contact,I need to change my emergency contact details in records.,HR
+Question about maternity policy,Could you share the latest maternity leave and benefit policy details?,HR
+Onboarding documents pending,New joiner has not received onboarding checklist and forms.,HR
+How to change profile photo,Please guide me to update account profile picture settings.,General
+Need product brochure,Can you share an overview document of available plans and features?,General
+Office location details,What is the address and parking information for the Bangalore office?,General
+Request callback,Please arrange a support callback in the afternoon.,General
+Feature availability question,Is dark mode available for all users or only enterprise plans?,General
+Where can I find user handbook,I need the link to documentation and getting started guide.,General
